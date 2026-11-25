@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Haiany Oliveira — Arquitetura de alto padrão em Itumbiara-GO</title>
+  <meta name="description" content="Haiany Oliveira, arquiteta e urbanista em Itumbiara-GO. Projetos residenciais de alto padrão acima de 200m², design de interiores, urbanismo e acompanhamento de obra. Nota 5,0 no Google.">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/00-perfil-haiany-thumb.webp">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Haiany Oliveira — Arquitetura">
+  <meta property="og:description" content="Não é sobre viver. É sobre viver bem. Projetos residenciais de alto padrão em Itumbiara-GO.">
+  <meta property="og:image" content="og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/12-hero-fachada-noturna.webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Haiany Oliveira Arquitetura",
+    "description": "Arquitetura, urbanismo e interiores. Projetos residenciais acima de 200m².",
+    "image": "og-image.jpg",
+    "telephone": "+55 64 98123-2418",
+    "email": "haianyoliveiraarq@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. João Rodrigues Jota, 150 — St. Santos Dumont",
+      "addressLocality": "Itumbiara",
+      "addressRegion": "GO",
+      "postalCode": "75530-370",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "09:00", "closes": "17:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "11:30" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "12" },
+    "sameAs": ["https://www.instagram.com/oliveira_haianyarq/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio" aria-label="Haiany Oliveira — início">
+      <span class="nav__mono">H</span>
+      <span class="nav__name">Haiany Oliveira<small>Arquitetura</small></span>
+    </a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="nav__cta" href="https://wa.me/5564981232418" target="_blank" rel="noopener">Fale comigo</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#quiz">Qual é o seu projeto?</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn" href="https://wa.me/5564981232418" target="_blank" rel="noopener">Chamar no WhatsApp <span class="btn__ic" aria-hidden="true">↗</span></a>
+  </div>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="heroTitle">
+      <div class="hero__stage" aria-hidden="true">
+        <img class="hero__bg" src="img/12-hero-fachada-noturna.webp" alt="" fetchpriority="high" width="1080" height="607">
+        <span class="hero__word">HAIANY</span>
+        <img class="hero__cut" src="img/12-hero-recorte.webp" alt="" width="1080" height="607">
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <div class="hero__main">
+          <p class="eyebrow">Arquitetura · Urbanismo · Interiores</p>
+          <h1 id="heroTitle" class="hero__title"><span class="sr-only">Haiany Oliveira Arquitetura — </span>Não é sobre viver.<br> É sobre viver bem.</h1>
+          <div class="hero__row">
+            <a class="btn" href="#quiz">Quero meu projeto <span class="btn__ic" aria-hidden="true">↗</span></a>
+            <p class="hero__sub">Projetos pensados para valorizar seu patrimônio, sua rotina e o seu estilo.</p>
+          </div>
+        </div>
+
+        <div class="hero__cards">
+          <div class="glass glass--stat">
+            <strong>5,0 <span class="star">★</span></strong>
+            <span>no Google · 12 avaliações</span>
+          </div>
+          <div class="glass glass--stat">
+            <strong><small>+</small>200<small>m²</small></strong>
+            <span>Projetos acima de 200m²</span>
+          </div>
+          <div class="glass glass--project" id="heroProject">
+            <img class="glass__thumb" src="img/08-fachada-por-do-sol-thumb.webp" alt="Fachada residencial ao pôr do sol" width="480" height="360">
+            <div class="glass__body">
+              <a class="glass__go" href="#projetos" aria-label="Ver projetos">↗</a>
+              <p class="glass__title">Fachada ao pôr do sol</p>
+              <p class="glass__text">Residência de alto padrão com iluminação pensada para a noite.</p>
+              <div class="glass__foot">
+                <div class="dots" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+                <div class="arrows">
+                  <button type="button" data-dir="-1" aria-label="Projeto anterior">←</button>
+                  <button type="button" data-dir="1" aria-label="Próximo projeto">→</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INTRO (estilo "Beyond reach") ============ -->
+    <section class="intro section">
+      <div class="container intro__grid">
+        <p class="label reveal">Arquitetura que acolhe</p>
+        <div class="intro__center">
+          <h2 class="intro__title reveal">Algumas casas impressionam.</h2>
+          <div class="intro__row reveal">
+            <p>Outras mudam a forma como você vive. Cada projeto nasce da sua rotina, do seu estilo e do que você quer sentir ao chegar em casa.</p>
+            <img src="img/04-fachada-jardim-thumb.webp" alt="Fachada com jardim iluminado" width="480" height="266" loading="lazy">
+          </div>
+          <a class="label label--link reveal" href="#sobre">Role para conhecer ↓</a>
+        </div>
+        <p class="label label--right reveal">Itumbiara · GO</p>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="sobre section" id="sobre">
+      <div class="container">
+        <div class="sobre__head">
+          <h2 class="title-grad reveal">Um estúdio autoral<br><span>com foco em viver bem</span></h2>
+          <div class="sobre__aside reveal">
+            <p>Arquitetura, urbanismo e interiores para quem quer construir com qualidade — do primeiro traço à obra pronta.</p>
+            <a class="btn" href="#quiz">Quero meu projeto <span class="btn__ic" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="sobre__body">
+          <figure class="sobre__photo reveal">
+            <img src="img/02-haiany-escritorio.webp" alt="A arquiteta Haiany Oliveira em seu escritório" width="853" height="1067" loading="lazy">
+            <figcaption class="glass glass--tag">Haiany Oliveira<span>Arquiteta e Urbanista</span></figcaption>
+          </figure>
+          <div class="sobre__text">
+            <p class="lead reveal">Sou Haiany Oliveira, arquiteta e urbanista em Itumbiara-GO. Desenvolvo projetos residenciais de alto padrão, acima de 200m², pensados para valorizar o seu patrimônio, a sua rotina e o seu estilo.</p>
+            <p class="reveal">Acompanho cada etapa de perto: o estudo, o projeto arquitetônico, os interiores e a obra. Atendo em Itumbiara e região — com projeto também em Araporã-MG — e faço parte da <a class="link" href="https://acardis.my.canva.site/dage-m-zohq" target="_blank" rel="noopener">ARCADIS Arquitetura e Engenharia</a>.</p>
+            <blockquote class="quote reveal">“Quem investe em qualidade de vida nunca se arrepende.”</blockquote>
+            <ul class="facts reveal">
+              <li><strong>5,0 ★</strong><span>no Google</span></li>
+              <li><strong>12</strong><span>avaliações</span></li>
+              <li><strong>200m²+</strong><span>por projeto</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="servicos section" id="servicos">
+      <div class="container">
+        <div class="sec-head">
+          <p class="label reveal">Serviços</p>
+          <h2 class="h2 reveal">Do projeto à obra,<br>tudo em um só lugar.</h2>
+        </div>
+        <ol class="svc">
+          <li class="svc__item reveal">
+            <span class="svc__n">01</span>
+            <h3>Projeto arquitetônico residencial</h3>
+            <p>Casas de alto padrão desenhadas a partir da sua rotina, do terreno e do seu estilo.</p>
+            <span class="svc__ic" aria-hidden="true">↗</span>
+          </li>
+          <li class="svc__item reveal">
+            <span class="svc__n">02</span>
+            <h3>Design de interiores</h3>
+            <p>Ambientes que conversam com a arquitetura: marcenaria, iluminação, materiais e conforto.</p>
+            <span class="svc__ic" aria-hidden="true">↗</span>
+          </li>
+          <li class="svc__item reveal">
+            <span class="svc__n">03</span>
+            <h3>Urbanismo</h3>
+            <p>Planejamento de espaços e loteamentos com olhar técnico e foco em qualidade de vida.</p>
+            <span class="svc__ic" aria-hidden="true">↗</span>
+          </li>
+          <li class="svc__item reveal">
+            <span class="svc__n">04</span>
+            <h3>Acompanhamento de obra</h3>
+            <p>Presença nas etapas da construção para que o que foi projetado seja o que fica pronto.</p>
+            <span class="svc__ic" aria-hidden="true">↗</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="dif section" id="diferenciais">
+      <div class="container">
+        <div class="sec-head sec-head--split">
+          <h2 class="h2 reveal">Por que escolher<br>a Haiany</h2>
+          <p class="muted reveal">O que as clientes destacam nas avaliações do Google — e o que guia cada projeto.</p>
+        </div>
+        <div class="dif__grid">
+          <article class="card card--1 reveal">
+            <div class="card__top"><span class="card__n">01</span><span class="card__ic" aria-hidden="true">↗</span></div>
+            <h3>Atenção do projeto à obra</h3>
+            <p>Acompanhamento próximo em cada etapa, do primeiro estudo até a obra pronta. Nada fica pelo caminho.</p>
+          </article>
+          <article class="card card--2 card--light reveal">
+            <div class="card__top"><span class="card__n">02</span><span class="card__ic" aria-hidden="true">↗</span></div>
+            <h3>Flexibilidade de horários</h3>
+            <p>Atendimento que se adapta à sua rotina — “bastante flexível, com horários”, como conta uma cliente.</p>
+          </article>
+          <article class="card card--3 reveal">
+            <div class="card__top"><span class="card__n">03</span><span class="card__ic" aria-hidden="true">↗</span></div>
+            <h3>Projetos que valorizam seu patrimônio</h3>
+            <p>Soluções pensadas para durar, com materiais e escolhas que valorizam o imóvel e o seu estilo de vida.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETOS ============ -->
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="sec-head sec-head--split">
+          <div>
+            <p class="label reveal">Portfólio</p>
+            <h2 class="h2 reveal">Projetos</h2>
+          </div>
+          <p class="muted reveal">Fachadas, áreas de lazer e interiores. Toque em um projeto para ampliar.</p>
+        </div>
+
+        <div class="proj__bar reveal">
+          <div class="chips" role="group" aria-label="Filtrar projetos">
+            <button class="chip is-on" data-filter="todos">Todos</button>
+            <button class="chip" data-filter="fachadas">Fachadas</button>
+            <button class="chip" data-filter="lazer">Lazer</button>
+            <button class="chip" data-filter="interiores">Interiores</button>
+          </div>
+          <div class="arrows arrows--lg">
+            <button type="button" id="projPrev" aria-label="Projetos anteriores">‹</button>
+            <button type="button" id="projNext" aria-label="Próximos projetos">›</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel" id="carousel" tabindex="0" aria-label="Carrossel de projetos">
+        <!-- preenchido por js/main.js -->
+      </div>
+
+      <div class="container">
+        <div class="proj__foot">
+          <span class="label">Projetos acima de 200m²</span>
+          <div class="progress" aria-hidden="true"><i id="projProgress"></i></div>
+          <a class="label label--link" href="https://www.instagram.com/oliveira_haianyarq/" target="_blank" rel="noopener">Mais no Instagram ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUIZ (bloco claro) ============ -->
+    <section class="quiz section" id="quiz" aria-labelledby="quizTitle">
+      <div class="container">
+        <div class="quiz__panel reveal">
+          <div class="quiz__intro">
+            <p class="label label--dark">Quiz · 3 perguntas</p>
+            <h2 id="quizTitle" class="quiz__title">Qual é o seu projeto?</h2>
+            <p class="quiz__lead">Responda em 20 segundos e envie direto para o WhatsApp da Haiany, com a mensagem pronta.</p>
+            <figure class="quiz__photo">
+              <img src="img/13-fachada-garagem.webp" alt="Fachada residencial com garagem" width="1024" height="1024" loading="lazy">
+              <figcaption class="quiz__float">
+                <span class="quiz__float-n">5,0 ★</span>
+                <span>“Recomendo a todos que queiram realmente construir!”</span>
+              </figcaption>
+            </figure>
+          </div>
+
+          <form class="quiz__form" id="quizForm" novalidate>
+            <div class="quiz__progress" aria-hidden="true"><i id="quizBar"></i></div>
+            <p class="quiz__step" id="quizStep" aria-live="polite">01 / 03</p>
+
+            <fieldset class="q is-active" data-q="tipo">
+              <legend>Que tipo de projeto você tem em mente?</legend>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="tipo" value="Construir do zero"><span><b>Construir do zero</b><small>Casa nova, do terreno à obra</small></span></label>
+                <label class="opt"><input type="radio" name="tipo" value="Reformar"><span><b>Reformar</b><small>Transformar o que já existe</small></span></label>
+                <label class="opt"><input type="radio" name="tipo" value="Interiores"><span><b>Interiores</b><small>Ambientes, marcenaria e iluminação</small></span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="q" data-q="tamanho">
+              <legend>Qual o tamanho aproximado?</legend>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="tamanho" value="até 200m²"><span><b>Até 200m²</b></span></label>
+                <label class="opt"><input type="radio" name="tamanho" value="200 a 400m²"><span><b>200 a 400m²</b></span></label>
+                <label class="opt"><input type="radio" name="tamanho" value="acima de 400m²"><span><b>Acima de 400m²</b></span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="q" data-q="quando">
+              <legend>Quando você pretende começar?</legend>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="quando" value="agora"><span><b>Agora</b></span></label>
+                <label class="opt"><input type="radio" name="quando" value="em até 6 meses"><span><b>Em até 6 meses</b></span></label>
+                <label class="opt"><input type="radio" name="quando" value="só pesquisando"><span><b>Só pesquisando</b></span></label>
+              </div>
+            </fieldset>
+
+            <div class="q q--done" data-q="fim">
+              <p class="q__title">Tudo pronto!</p>
+              <ul class="summary" id="quizSummary"></ul>
+              <a class="btn btn--dark" id="quizSend" href="https://wa.me/5564981232418" target="_blank" rel="noopener">Enviar no WhatsApp <span class="btn__ic" aria-hidden="true">↗</span></a>
+            </div>
+
+            <div class="quiz__nav">
+              <button type="button" class="link-btn" id="quizBack" hidden>← Voltar</button>
+              <button type="button" class="link-btn" id="quizReset" hidden>Refazer quiz</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEPOIMENTOS ============ -->
+    <section class="depo section" id="depoimentos">
+      <div class="container">
+        <div class="depo__head">
+          <div class="depo__score reveal">
+            <strong>5,0</strong>
+            <div><span class="stars" aria-hidden="true">★★★★★</span><span>12 avaliações no Google</span></div>
+          </div>
+          <h2 class="h2 reveal">O que dizem<br>as clientes</h2>
+        </div>
+        <div class="depo__list">
+          <figure class="depo__card depo__card--big reveal">
+            <span class="stars" aria-label="5 estrelas">★★★★★</span>
+            <blockquote>“Ótima profissional, atenciosa e dedicada aos clientes. Bastante flexível, com horários. Recomendo a todos que queiram realmente construir!”</blockquote>
+            <figcaption>Avaliação no Google</figcaption>
+          </figure>
+          <figure class="depo__card reveal">
+            <span class="stars" aria-label="5 estrelas">★★★★★</span>
+            <blockquote>“Excelente profissional, atendimento de qualidade e muito atenciosa. Recomendo muito!”</blockquote>
+            <figcaption>Avaliação no Google</figcaption>
+          </figure>
+          <figure class="depo__card reveal">
+            <span class="stars" aria-label="5 estrelas">★★★★★</span>
+            <blockquote>“Excelente atendimento. Muito educada e atenciosa. Parabéns!”</blockquote>
+            <figcaption>Avaliação no Google</figcaption>
+          </figure>
+          <figure class="depo__card depo__card--light reveal">
+            <span class="stars" aria-label="5 estrelas">★★★★★</span>
+            <blockquote>“Melhor arquiteta da cidade”</blockquote>
+            <figcaption>Avaliação no Google</figcaption>
+          </figure>
+          <figure class="depo__card reveal">
+            <span class="stars" aria-label="5 estrelas">★★★★★</span>
+            <blockquote>“Excelente arquiteta!”</blockquote>
+            <figcaption>Avaliação no Google</figcaption>
+          </figure>
+          <a class="depo__card depo__card--link reveal" href="https://www.google.com/maps/search/?api=1&query=Haiany+Oliveira+Arquiteta+Itumbiara" target="_blank" rel="noopener">
+            <span class="depo__more">Ver todas as 12 avaliações no Google</span>
+            <span class="btn__ic" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta section">
+      <div class="container">
+        <div class="cta__box reveal">
+          <img src="img/11-cozinha-ilha.webp" alt="Cozinha com ilha em marmore preto e madeira" width="640" height="472" loading="lazy">
+          <div class="cta__content">
+            <h2 class="cta__title">Qual é a sua<br>cozinha dos sonhos?</h2>
+            <p>Conte para a Haiany. A conversa começa no WhatsApp.</p>
+            <a class="btn" href="https://wa.me/5564981232418?text=Ol%C3%A1%2C%20Haiany!%20Vim%20pelo%20site%20e%20quero%20conversar%20sobre%20o%20meu%20projeto." target="_blank" rel="noopener">Conversar agora <span class="btn__ic" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="contato section" id="contato">
+      <div class="container">
+        <div class="sec-head sec-head--split">
+          <h2 class="title-grad reveal">Vamos conversar<br><span>sobre a sua casa</span></h2>
+          <a class="btn reveal" href="https://wa.me/5564981232418" target="_blank" rel="noopener">(64) 98123-2418 <span class="btn__ic" aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="contato__grid">
+          <a class="info reveal" href="https://wa.me/5564981232418" target="_blank" rel="noopener">
+            <span class="info__k">WhatsApp</span>
+            <span class="info__v">(64) 98123-2418</span>
+            <span class="info__ic" aria-hidden="true">↗</span>
+          </a>
+          <a class="info reveal" href="mailto:haianyoliveiraarq@gmail.com">
+            <span class="info__k">E-mail</span>
+            <span class="info__v info__v--sm">haianyoliveiraarq@gmail.com</span>
+            <span class="info__ic" aria-hidden="true">↗</span>
+          </a>
+          <a class="info reveal" href="https://www.instagram.com/oliveira_haianyarq/" target="_blank" rel="noopener">
+            <span class="info__k">Instagram</span>
+            <span class="info__v">@oliveira_haianyarq</span>
+            <span class="info__ic" aria-hidden="true">↗</span>
+          </a>
+          <a class="info info--wide reveal" href="https://www.google.com/maps/search/?api=1&query=R.+Jo%C3%A3o+Rodrigues+Jota%2C+150+-+St.+Santos+Dumont%2C+Itumbiara+-+GO%2C+75530-370" target="_blank" rel="noopener">
+            <span class="info__k">Endereço</span>
+            <span class="info__v info__v--sm">R. João Rodrigues Jota, 150 — St. Santos Dumont<br>Itumbiara-GO, 75530-370</span>
+            <span class="info__ic" aria-hidden="true">↗</span>
+          </a>
+          <div class="info info--hours reveal">
+            <span class="info__k">Horário</span>
+            <dl class="hours">
+              <div><dt>Seg a qui</dt><dd>9h às 17h30</dd></div>
+              <div><dt>Sexta</dt><dd>9h às 11h30</dd></div>
+              <div><dt>Sáb e dom</dt><dd>Fechado</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="map reveal">
+          <iframe title="Mapa: escritório Haiany Oliveira em Itumbiara-GO" src="https://www.google.com/maps?q=R.+Jo%C3%A3o+Rodrigues+Jota,+150,+Itumbiara+-+GO,+75530-370&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__who">
+          <img class="avatar" src="img/00-perfil-haiany-thumb.webp" alt="Haiany Oliveira" width="240" height="240" loading="lazy">
+          <div>
+            <p class="footer__name">Haiany Oliveira</p>
+            <p class="muted">Arquitetura • Urbanismo • Interiores</p>
+          </div>
+        </div>
+        <nav class="footer__links" aria-label="Rodapé">
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#quiz">Quiz</a>
+          <a href="https://www.instagram.com/oliveira_haianyarq/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://acardis.my.canva.site/dage-m-zohq" target="_blank" rel="noopener">ARCADIS</a>
+        </nav>
+      </div>
+      <p class="footer__word" aria-hidden="true">HAIANY</p>
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> Haiany Oliveira Arquitetura</span>
+        <span>Itumbiara-GO</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLUTUANTE ============ -->
+  <a class="wa" href="https://wa.me/5564981232418?text=Ol%C3%A1%2C%20Haiany!%20Vim%20pelo%20site." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.02 8.83 3.02 16c0 2.3.6 4.54 1.75 6.52L3 29l6.65-1.74A13 13 0 0 0 16.04 29C23.2 29 29 23.17 29 16S23.2 3 16.04 3Zm0 23.8c-2.02 0-4-.54-5.72-1.57l-.41-.24-3.95 1.03 1.05-3.84-.27-.4A10.73 10.73 0 0 1 5.27 16c0-5.94 4.83-10.77 10.77-10.77 5.93 0 10.75 4.83 10.75 10.77 0 5.94-4.82 10.8-10.75 10.8Zm5.9-8.07c-.32-.16-1.91-.94-2.21-1.05-.3-.11-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.9-1.79-2.22-.19-.32-.02-.5.14-.66.15-.14.32-.38.48-.56.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.73-1.75-1-2.4-.26-.63-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.3.32-1.13 1.1-1.13 2.69s1.16 3.12 1.32 3.33c.16.21 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.25 1.48.21 2.03.13.62-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z"/></svg>
+    <span class="wa__label">Fale com a Haiany</span>
+  </a>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <dialog class="lightbox" id="lightbox" aria-label="Projeto ampliado">
+    <button class="lightbox__close" id="lbClose" aria-label="Fechar">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Anterior">‹</button>
+    <figure>
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Próximo">›</button>
+  </dialog>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
